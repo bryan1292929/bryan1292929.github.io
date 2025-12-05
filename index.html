@@ -14,6 +14,9 @@
     }
     header {
       margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 20px;
     }
     .name {
       font-size: 2rem;
@@ -39,13 +42,23 @@
       font-size: 0.9rem;
       color: #555;
     }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <div class="name">Bryan Park</div>
-    <div>PhD Student in Statistics, Stanford University</div>
-    <div class="note">Email: bryan314@stanford.edu</div>
+    <img src="Park%20Photo.jpg" alt="Photo of Bryan Park" class="profile-pic">
+
+    <div>
+      <div class="name">Bryan Park</div>
+      <div>PhD Student in Statistics, Stanford University</div>
+      <div class="note">Email: bryan314@stanford.edu</div>
+    </div>
   </header>
 
   <section id="about">
@@ -56,32 +69,28 @@
     </p>
   </section>
 
-<section id="research">
-  <h2>Research</h2>
-  <ul>
-    <li>
-      B. Park and S. Wager. Treatment effect estimation under convergent network interference.
-      Manuscript in preparation, 2025.
-    </li>
+  <section id="research">
+    <h2>Research</h2>
+    <ul>
+      <li>
+        B. Park and S. Wager. Treatment effect estimation under convergent network interference.
+        Manuscript in preparation, 2025.
+      </li>
 
-    <li>
-      B. Park and S. Ray. Random walk in slowly changing environments.
-      Submitted to <i>Electronic Journal of Probability</i>, 2025.
-      <a href="https://arxiv.org/abs/2406.14914" target="_blank">[arXiv]</a>.
-    </li>
+      <li>
+        B. Park and S. Ray. Random walk in slowly changing environments.
+        Submitted to <i>Electronic Journal of Probability</i>, 2025.
+        <a href="https://arxiv.org/abs/2406.14914" target="_blank">[arXiv]</a>.
+      </li>
 
-    <li>
-      B. Park and J. Vondrák. A simple proof of the non-uniform Kahn–Kalai conjecture.
-      <i>SIAM Journal on Discrete Mathematics</i>, 38(3), 2024.
-      <a href="https://epubs.siam.org/doi/10.1137/23M1587075" target="_blank">[Journal]</a>
-      <a href="https://arxiv.org/abs/2306.12576" target="_blank">[arXiv]</a>.
-    </li>
-  </ul>
-</section>
-
-
-
-
+      <li>
+        B. Park and J. Vondrák. A simple proof of the non-uniform Kahn–Kalai conjecture.
+        <i>SIAM Journal on Discrete Mathematics</i>, 38(3), 2024.
+        <a href="https://epubs.siam.org/doi/10.1137/23M1587075" target="_blank">[Journal]</a>
+        <a href="https://arxiv.org/abs/2306.12576" target="_blank">[arXiv]</a>.
+      </li>
+    </ul>
+  </section>
 
 </body>
 </html>
